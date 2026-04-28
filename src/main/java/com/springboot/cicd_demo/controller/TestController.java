@@ -10,4 +10,9 @@ public class TestController {
     public String welcome(){
         return "Hello! welcome in CI CD Demo.";
     }
+
+    @GetMapping("/test")
+    public String test(){
+        return "Hello! this is to test CI CD.";
+    }
 }
