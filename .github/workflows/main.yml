@@ -17,7 +17,7 @@ jobs:
           cache: 'maven'
 
       - name: Build
-        run: ./mvnw clean install
+        run: mvn clean install
 
       - name: Build & push Docker image
         uses: mr-smithers-excellent/docker-build-push@v5
