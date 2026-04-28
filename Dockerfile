@@ -1,4 +1,4 @@
-FROM ubuntu:latest
+FROM eclipse-temurin:17-jdk-alpine
 LABEL authors="LENOVO"
 
 EXPOSE 8080
